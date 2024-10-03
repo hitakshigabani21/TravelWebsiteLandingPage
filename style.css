@@ -69,7 +69,7 @@ nav{
 }
 .hero_container img{
     height: 650px;
-    position: relative;
+    /* position: relative; */
     right:0;
 
 }
@@ -738,22 +738,92 @@ nav{
         flex-direction: column;
         gap:50px;
     }
+    /* #menu, #cross{
+        height:30px;
+        cursor:pointer;
+        display:block;
+
+    }
+    .nav_elements_container{
+        background-color: #F1A501;
+        position: fixed;
+        top:0;
+        right:250px;
+        width:250px;
+        height:100vh;
+        padding-top: 50px;
+        transition: right 0.5s;
+    } */
     .copyrights{
         text-align: left;
     }
     footer{
-        margin-left: 50px;
+        /* margin-left: 20px; */
+        margin-top: 30px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-left: 15px;
+    }
+    .intro_line{
+        width: 80%;
+    }
+    .lists{
+        /* width:50%; */
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .discover{
+        padding-left:0;
+    }
+    .discoverapp{
+        width: 90%;
+    }
+    .footer_logos{
+        width:20%;
+        flex-wrap: wrap;
+    }
+    .footer_logos img{
+        height: 50px;
+    }
+    .black_btns{
+        width: 80%;
+        flex-direction: column;
     }
     .subscribe_box{
-        width: 380px;
+        width: 85%;
+    }
+    .subscribe_box h3{
+        width: 80%;
+        font-size: 16px;
+        /* text-wrap: wrap; */
+        position: relative;
+    }
+    .subs_outerbox{
+       display: flex;
+       justify-content: center;
+       width: 90%;
     }
     #purplearrow{
         top:-20px;
         right: 20px;
+        height: 10%;
+        /* width:10%; */
+    }
+    .form{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    #emailid{
+        width: 80%;
+    }
+    .form button{
+        width: 40%;
     }
     .testimonials{
         flex-direction: column;
-        margin-left: 30px;
+        /* margin-left: 30px; */
+        padding-left: 10px;
     }
     /* .carousel{
         padding-left: 80px;
@@ -761,16 +831,27 @@ nav{
     .carousel_container{
         display: flex;
         justify-content: center;
-        position: relative;
-        left:80px;
+        /* flex-wrap: wrap; */
+        /* position: relative;
+        left:20%; */
+        width:90%;
+        padding-left: 20px;
+    }
+    .profilepic{
+        top:0;
+        left: 0;
+        position: static;
     }
     .card_test_car{
-        width: 200px;
+        width: 90%;
+        padding-left: 10px;
     }
-    #card1{
+    /* #card1{
         top:150px;
+    } */
+    #card1{
+        left:0;
     }
-
     .brands{
         flex-direction: column;
         align-items: center;
@@ -778,31 +859,48 @@ nav{
 
     .bookings{
         flex-direction: column;
-        width: 100%;
+        /* width: 90%; */
+        padding-left:10px;
+
     }
     .bookings h2{
-        font-size: 2rem;
-        /* width: 700px; */
+        font-size: 25px;
+        width: 700px;
     }
     .bookings{
-        margin:20px;
+        /* margin:20px; */
+        margin-right: 0;
+        margin-left:0;
+        padding-right: 0;
     }
     .box{
-        width: 100vw;
+        width: 90%;
         height:100%;
-        margin: 20px;
+        /* margin: 20px; */
+        margin-bottom: 20px;
+    }
+    .value{
+        width: 100%;
+    }
+    #booktrip{
+        width:90%;
     }
     .trip_greece{
         width: 80%;
+        padding: 16px;
     }
     #girl{
-        width:95%;
+        width:97%;
     }
     .trip_rome{
-        width: 200px;
-        padding:10px;
-        left:120px;
-        bottom: 230px;
+        width: 60%;
+        padding:7px;
+        left: 30%;
+        bottom: 150px;
+        padding-bottom: 20px;
+    }
+    .trip_rome h2{
+        font-size: 80%;
     }
     #rome_logo_head{
         flex-direction: column;
@@ -811,28 +909,28 @@ nav{
     #tracker{
         margin-left: 20px;
     }
+    #progress_bar{
+        width: 80%;
+    }
     .value{
         font-size: 14px;
     }
-    .subscribe_box h3{
+    /* .subscribe_box h3{
         font-size: 20px;
         width: 400px;
     }
-    
+     */
     /* .subscribe_section{
         display: flex;
         justify-content: center;
         text-align: center;
         padding: 50px
     } */
-     .subscribe_box{
+     /* .subscribe_box{
         position: relative;
         left: 30px;
-     }
-    .form{
-        flex-direction: column;
-        align-items: center;
-    }
+     } */
+    
     
     .testimonials h2{
         font-size: 2rem;
@@ -840,15 +938,19 @@ nav{
     
     .container{
         flex-direction: column;
-        margin-left: 60px;
+        padding-left: 10px;
         align-items: center;
-        width: 100%;
+        width: 100vw;
+    }
+    .dest_cont{
+        width: 80%;
     }
     .destinations h2{
         font-size: 2rem;
     }
+
     #head{
-        text-align: left;
+        /* text-align: left; */
     }
     .cards-container{
         flex-direction: column;
@@ -866,10 +968,13 @@ nav{
     }
     .hero_container{
         flex-direction: column-reverse;
+        margin:0;
+        padding-left: 20px;
     }
+    
     .hero_container img{
+        height: 100%;
         width: 100%;
-        height: 400px;
         position: static;
     }
     #tagline{
@@ -894,12 +999,20 @@ nav{
 
     .nav_elements_container{
         flex-direction: column;
+        gap:5px;
     }
     nav{
         margin-bottom: 20px;
+        height: 200px;
+    }
+    .logo{
+        display:block;
     }
     #shape{
         right: 0;
+    }
+    #decoreimg{
+        display: none;
     }
 
 }
